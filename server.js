@@ -14,7 +14,7 @@ import orderRouter from "./routes/orderRoute.js";
 const app = express();
 const port = process.env.PORT || 4000;
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://artnakkk-admin.vercel.app',
   credentials: true,
 };
 app.use(cors(corsOptions));
