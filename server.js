@@ -30,7 +30,7 @@ const allowedOrigins = [
   "http://localhost:5173", // For local development
   "http://localhost:5174", // For local development
   "http://localhost:5175", // For local development
-  "http://localhost:5176", // For local development
+  "http://localhost:5176", // For local developmen
 ];
 
 // Configure CORS
