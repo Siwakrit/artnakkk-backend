@@ -13,6 +13,11 @@ import orderRouter from "./routes/orderRoute.js";
 //App config
 const app = express();
 const port = process.env.PORT || 4000;
+const corsOptions = {
+  origin: 'http://localhost:3000',
+  credentials: true,
+};
+app.use(cors(corsOptions));
 
 //Service connections
 connectDB();
